@@ -13,7 +13,6 @@
                     
        
               <div id="questions">
-                
                  <!-- Repeatable Rows -->
                  <% for(let count = 0; count < surveys.Questions.length; count++) { %>
 
@@ -77,7 +76,7 @@
                           ];
 
                           new Chart("myChart<%=count%>", {
-                            type: "pie",
+                            type: "doughnut",
                             data: {
                               labels: xValues,
                               datasets: [{

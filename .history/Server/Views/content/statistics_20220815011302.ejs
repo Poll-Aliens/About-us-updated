@@ -13,13 +13,11 @@
                     
        
               <div id="questions">
-                
                  <!-- Repeatable Rows -->
                  <% for(let count = 0; count < surveys.Questions.length; count++) { %>
 
-                  <br>
                   <canvas id="myChart<%=count%>" style="width:100%;"></canvas>
-                  <br>
+
                   <div id="<%= count %>">
                       <!-- Create a new Table Row-->                     
 

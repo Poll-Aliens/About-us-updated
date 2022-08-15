@@ -13,7 +13,6 @@
                     
        
               <div id="questions">
-                
                  <!-- Repeatable Rows -->
                  <% for(let count = 0; count < surveys.Questions.length; count++) { %>
 
@@ -88,7 +87,7 @@
                             options: {
                               title: {
                                 display: true,
-                                text: "<%=surveys.Questions[count].qText%>"
+                                text: "<%=surveys.Questions[count].qText + \n%>"
                               }
                             }
                           });
